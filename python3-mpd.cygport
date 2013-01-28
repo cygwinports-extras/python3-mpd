@@ -1,0 +1,11 @@
+ORIG_PN="python-mpd2"
+inherit python3-distutils
+
+NAME="python3-mpd"
+VERSION=0.4.6
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Py3K Music Player Daemon client library"
+DESCRIPTION="A Music Player Daemon client library written in pure Python."
+
+REQUIRES="mpd"
